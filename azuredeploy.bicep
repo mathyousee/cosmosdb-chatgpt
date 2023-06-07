@@ -4,7 +4,7 @@
   'East US'
   'France Central'
 ])
-param location string = 'South Central US'
+param location string = 'East US'
 
 @description('''
 Unique name for the chat application.  The name is required to be unique as it will be used as a prefix for the names of these resources:
