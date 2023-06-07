@@ -33,7 +33,7 @@ param appServiceSku string = 'F1'
 param openAiSku string = 'S0'
 
 @description('Git repository URL for the chat application. This defaults to the [`azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt) repository.')
-param appGitRepository string = 'https://github.com/azure-samples/cosmosdb-chatgpt.git'
+param appGitRepository string = 'https://github.com/mathyousee/cosmosdb-chatgpt.git'
 
 @description('Git repository branch for the chat application. This defaults to the [**main** branch of the `azure-samples/cosmosdb-chatgpt`](https://github.com/azure-samples/cosmosdb-chatgpt/tree/main) repository.')
 param appGetRepositoryBranch string = 'main'
